@@ -1,0 +1,27 @@
+.complete {
+    text-decoration: line-through;
+}
+
+.todo-button {
+    --todo-color: black;
+    color: var(--todo-color);
+    height: 32px;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+    border: solid 2px var(--todo-color);
+    font-weight: bold;
+}
+
+.delete {
+    --todo-color: red;
+}
+
+.edit {
+    --todo-color: #1976d2;
+}
+
+.complete-todo{
+    --todo-color:	rgb(50,205,50);
+
+}
